@@ -1,5 +1,13 @@
 {
   "version": "7",
   "dialect": "mysql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1763937231012,
+      "tag": "0000_special_mordo",
+      "breakpoints": true
+    }
+  ]
 }
