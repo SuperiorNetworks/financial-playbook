@@ -215,15 +215,109 @@
 - [x] Integrate FINAL_UI_IMPLEMENTATION_PLAN into MASTER_PLAYBOOK_COMPLETE
 
 
-## Intelligent Progressive Onboarding System
-- [ ] Design multi-step onboarding wizard that collects data progressively
-- [ ] Create "Get Back on Track" recovery flow for messy QuickBooks data
-- [ ] Build historical norms database for predictive analytics
-- [ ] Implement milestone-based data collection (immediate value at each step)
-- [ ] Design onboarding wireframes with QC numbers (1100-1200 range)
-- [ ] Integrate onboarding with AI Strategy Builder
-- [ ] Create skip/resume onboarding functionality
-- [ ] Build progress tracking and completion incentives
-- [ ] Implement historical data analysis for baseline establishment
-- [ ] Build predictive modeling engine based on historical norms
-- [ ] Create "What-If" scenario templates from onboarding data
+## Integrated Onboarding System v2.0 (Tiered with Bank Statement Control)
+
+### Core Onboarding Infrastructure
+- [ ] Design and implement initial branching question UI ("How organized are your financial records?")
+- [ ] Build 4-path routing system (Fast Track, Guided Cleanup, Manual Entry, Simplified)
+- [ ] Create progress tracking system with visual indicators (0-100%)
+- [ ] Implement skip/resume functionality with state persistence
+- [ ] Build onboarding completion analytics and metrics tracking
+- [ ] Design celebration/milestone screens for each completion point
+- [ ] Implement positive affirmation messaging system throughout onboarding
+
+### Bank Statement Processing Engine (Universal Requirement)
+- [ ] Build AI-powered OCR system for bank statement extraction (PDF, JPG, PNG, HEIC)
+- [ ] Implement transaction parsing and categorization from bank statements
+- [ ] Build math validation system (beginning + deposits - withdrawals = ending)
+- [ ] Create 3-month statement collection UI with drag-and-drop upload
+- [ ] Implement statement quality checks and validation error handling
+- [ ] Build transaction matching engine (bank statements vs QuickBooks)
+- [ ] Create discrepancy detection and reporting system
+- [ ] Implement pattern recognition for recurring transactions
+- [ ] Build seasonal trend detection from 3-month baseline
+- [ ] Create anomaly detection system based on bank statement patterns
+
+### Path A: Fast Track (QB Managed)
+- [ ] Build QuickBooks OAuth connection flow UI
+- [ ] Implement automatic data extraction from QuickBooks
+- [ ] Create bank statement verification UI for QB users
+- [ ] Build discrepancy report for QB vs bank statement comparison
+- [ ] Implement business profile confirmation screen (auto-populated from QB)
+- [ ] Create 5-minute onboarding flow for organized users
+- [ ] Build "96.8% accurate" success messaging
+
+### Path B: Guided Cleanup (QB But Behind)
+- [ ] Build encouraging messaging for users with QB issues
+- [ ] Create guided discrepancy resolution UI (one-by-one walkthrough)
+- [ ] Implement AI-assisted transaction categorization suggestions
+- [ ] Build "Add to QuickBooks" one-click action buttons
+- [ ] Create progress tracking for cleanup (X of Y discrepancies resolved)
+- [ ] Implement before/after comparison display
+- [ ] Build 15-20 minute cleanup flow with milestone celebrations
+
+### Path C: Manual Entry (Chaos/Need Help)
+- [ ] Build empathetic encouragement messaging for overwhelmed users
+- [ ] Create account entry UI with live cash position updates
+- [ ] Implement immediate value display (30 seconds to first insight)
+- [ ] Build debt entry UI with net position calculation
+- [ ] Create AI-powered income/expense detection from bank statements
+- [ ] Implement recurring transaction confirmation UI
+- [ ] Build comprehensive business profile questionnaire (8-10 questions)
+- [ ] Create 20-25 minute "chaos to clarity" flow
+
+### Path D: Simplified (New Business)
+- [ ] Build new business encouragement messaging
+- [ ] Create simplified account entry flow
+- [ ] Implement optional bank statement upload (1-2 months acceptable)
+- [ ] Build expected income/expense entry UI
+- [ ] Create forward-looking projection system for new businesses
+- [ ] Implement 10-15 minute simplified onboarding flow
+
+### Business Profile System Integration
+- [ ] Create database schema for 7-pillar business profile system
+- [ ] Build business identity collection UI (name, entity type, industry, etc.)
+- [ ] Implement money flow mapping UI (revenue sources, expense categories)
+- [ ] Create organizational structure questionnaire (bookkeeper, decision authority)
+- [ ] Build revenue model collection UI (pricing, payment terms, seasonality)
+- [ ] Implement expense framework UI (fixed vs variable costs)
+- [ ] Create strategic goals collection UI (debt reduction, growth targets, etc.)
+- [ ] Build financial statement generation from available data
+- [ ] Implement progressive disclosure system (collect data over time, not all at once)
+
+### Forensic Analysis System
+- [ ] Build 8-module forensic analysis engine
+- [ ] Implement pattern recognition module (recurring transactions, seasonal trends)
+- [ ] Create anomaly detection module (unusual transactions, outliers)
+- [ ] Build efficiency analysis module (money leaks, unnecessary fees)
+- [ ] Implement fraud detection module (suspicious activity flagging)
+- [ ] Create vendor intelligence module (payment patterns, consolidation opportunities)
+- [ ] Build cash flow forensics module (timing issues, float optimization)
+- [ ] Implement seasonal intelligence module (peak/trough detection)
+- [ ] Create predictive insights module (forecast based on patterns)
+- [ ] Build forensic analysis report UI with actionable recommendations
+
+### Dashboard & Post-Onboarding Experience
+- [ ] Build immediate dashboard display after onboarding completion
+- [ ] Create financial snapshot widget (cash, debt, net position, traffic lights)
+- [ ] Implement 90-day cash flow forecast display
+- [ ] Build forensic analysis summary card
+- [ ] Create recommended actions prioritized list (High/Medium/Low)
+- [ ] Implement scenario planning quick-start UI
+- [ ] Build monthly re-analysis notification system
+- [ ] Create continuous improvement tracking (forecast accuracy over time)
+
+### Data Quality & Validation
+- [ ] Implement statement-level validation checks
+- [ ] Build transaction-level quality checks
+- [ ] Create user feedback system for validation errors
+- [ ] Implement confidence scoring for AI-extracted data
+- [ ] Build manual override system for incorrect AI extractions
+
+### Onboarding Analytics & Optimization
+- [ ] Track completion rates by path (A/B/C/D)
+- [ ] Measure time to first value by path
+- [ ] Implement user confidence scoring (post-onboarding survey)
+- [ ] Build onboarding funnel analytics (drop-off points)
+- [ ] Create A/B testing framework for onboarding messaging
+- [ ] Implement onboarding performance dashboard for product team
